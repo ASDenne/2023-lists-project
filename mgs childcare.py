@@ -27,7 +27,4 @@ def main():
     else:
         main()
 Children = []
-
-
-
 main()
