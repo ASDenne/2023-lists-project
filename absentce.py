@@ -17,7 +17,7 @@ while name != "$":
     absences.append(days)
     people.append(name)
 
-    name = input("employee?")
+    name = input("employee? (or $ to quit)")
 average_absences = total_absence/no_people
 over_average = ""
 for n in range(0,len(absences)):
